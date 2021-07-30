@@ -27,4 +27,14 @@ VBoxProcess(){
         TEXT("vboxtray.exe"),
     };
 }
+
+VOID 
+VMWareMac(){
+    CHAR *BlockListMac[] = {
+        "00:50:56",
+        "00:1C:14",
+        "00:0C:29",
+        "00:05:69",
+    };
+}
 #endif /* PORTS */
