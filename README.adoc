@@ -1,2 +1,3 @@
-== valar-morghulis image::img/mario.gif
+image::img/mario.gif
+== valar-morghulis
 Malware development library 
