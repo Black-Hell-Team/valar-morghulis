@@ -2,6 +2,9 @@
 #define LOADER 
 
 #include <Windows.h>
+// Cpp stdlib
+#include <string>
+
 
 // Get process id 
 DWORD GprocessId(const std::tstring& Name);
