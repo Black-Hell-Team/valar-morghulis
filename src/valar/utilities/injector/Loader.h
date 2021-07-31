@@ -1,8 +1,12 @@
 #ifndef _LOADER_H_
 #define LOADER 
 
+#include <Windows.h>
+
 // Get process id 
 DWORD GprocessId(const std::tstring& Name);
+// Get module name
+char GetP(const std::tstring& ModuleName);
 
 // LDR ENTRY
 enum LDR_ENTRY {
