@@ -7,9 +7,11 @@
 
 
 // Get process id 
-DWORD GprocessId(const std::tstring& Name);
+DWORD GprocessId(const std::tstring Name);
+// Get pid 
+DWORD GetPid(std::wstring Name);
 // Get module name
-char GetP(const std::tstring& ModuleName);
+char GetP(const std::tstring ModuleName);
 
 // LDR ENTRY
 enum LDR_ENTRY {
