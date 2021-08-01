@@ -4,7 +4,7 @@
 #include <Windows.h>
 // Cpp stdlib
 #include <string>
-
+#include <tchar.h>
 
 // Get process id 
 DWORD GprocessId(const std::tstring Name);
